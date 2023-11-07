@@ -1,5 +1,10 @@
+// src/ColoradoStateParks.js
+import React from "react";
+import howManyParks from "./parks/howManyParks";
+
+
 function howManyParks() {
-  console.log("42 parks!");
+  howManyParks(); // => "42 parks!"
 }
 
-export default howManyParks;
+return <h1>Colorado State Parks!</h1>;
